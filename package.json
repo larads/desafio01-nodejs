@@ -1,0 +1,22 @@
+{
+  "author": "larads",
+  "name": "desafio-01-nodejs",
+  "description": "desafio 01 de nodejs",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^10.0.0",
+    "csv-parse": "^5.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
